@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1000px) {
+
+
+    header{
+        width: 900px;
+        margin: auto;
+    }
+    
+    #navmenu{
+        justify-content: center;
+        position: absolute;
+        left: 35%
+    }
+     
+    nav button {
+        display: none;
+    }
+
+
+
+}
+
