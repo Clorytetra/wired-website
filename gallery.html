@@ -15,41 +15,54 @@
 
     <main id="gallery-body">
         
-        <nav>
+        <nav id="side-nav">
         
-            <p>This is just temporay text to make sure the format is good</p>
-            <p>There will be a nav bar like section where you can view photos based on what category they are in.</p>
+            
+            <p>These are examples of work I have done in the past.</p>
+            <p>(Place Holder Images)</p>
+        <div id="filter-btn-container">
+            <button type="button" class="btn btn-info filter-btn" onclick="filterSelection('all')">Show All</button>
+            <button type="button" class="btn btn-info filter-btn" onclick="filterSelection('electrical-boxes')">Electrical Boxes</button>
+            <button type="button" class="btn btn-info filter-btn" onclick="filterSelection('switches')">Switches</button>
+            <button type="button" class="btn btn-info filter-btn" onclick="filterSelection('telephones')">Telephones</button>
+        </div>
         
         </nav>
-
-        <div id="pictures">
-
-            <div class="pictureArticle">
-                    <img src="images/telephone-booth.jpg" alt="Telephone Booth">
+        
+        <div class="gallery-row">
+            <div class="gallery-column electrical-boxes">
+                <div class="content">
+                    <img src="/images/distro-box.jpg" alt="Distribution Box" style="width:100%">
+                    <h4>Distribution Box</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
             </div>
-
-            <div class="pictureArticle">
-
-                <picture>
-                    <img src="images/light-switches.jpg" alt="Light Switch Installation">
-                </picture>
-
+            
+            <div class="gallery-column electrical-boxes">
+                <div class="content">
+                    <img src="/images/electrical-box.jpg" alt="Electrical Box" style="width:100%">
+                    <h4>Electrical Box</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
             </div>
+            
 
-            <div class="pictureArticle">    
-                    <img src="images/electrician.jpg" alt="Electrician">            
+            <div class="gallery-column switches">
+                <div class="content">
+                    <img src="/images/light-switches.jpg" alt="Light Switches" style="width:100%">
+                    <h4>Light Switch Installation</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
             </div>
-
-            <div class="pictureArticle">
-                    <img src="images/electrical-box.jpg" alt="Electrical Box">
+        
+            <div class="gallery-column telephones">
+                <div class="content">
+                    <img src="/images/telephone-booth.jpg" alt="telephone box" style="width:100%">
+                    <h4>Telephone Box</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
             </div>
-
-            <div class="pictureArticle">
-                    <img src="images/distro-box.jpg" alt="Distribution Box">
-            </div>
-
         </div>
-
 
     </main>
 
@@ -61,5 +74,9 @@
     <script src="scripts/wayfind.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/side-nav.js"></script>
 </body>
 </html>

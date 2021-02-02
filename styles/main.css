@@ -90,23 +90,78 @@ main {
 
 /* Gallery */
 
+.gallery-row {
+    margin: 10px -16px;
+   
+}
+
+/* Add padding BETWEEN each column */
+.gallery-row,
+.gallery-row > .gallery-column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.gallery-column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.gallery-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+    padding: 10px;
+}
+
+.show{
+    display: block;
+}
+
+
+#side-nav{
+    
+    display: flex;
+    flex-direction: column;    
+    align-content: space-between;
+    text-align: center;
+    padding: 2rem; 
+    max-width: 20rem;
+    background-color: #c3c3c3;
+    border-radius: 10px;
+    
+}
+
+#filter-btn-container{
+    display: flex;
+    flex-direction: column;    
+    align-content: space-around;
+}
+
+.filter-btn{
+    
+    margin: 10px;
+    
+}
+
+.side-nav-btn{
+    
+    margin: 2rem;
+    width: 100px;
+
+}
+
+
 #gallery-body{
     display: flex;
     justify-content: space-between;
 }
-
-#pictures {
-    display: grid;
-    grid-template-columns: .5fr .5fr;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
-
-.pictureArticle {
-    padding-left: 10px;
-}
-
 
 
 .border-styled{
