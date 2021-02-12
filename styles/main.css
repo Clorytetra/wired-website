@@ -18,6 +18,13 @@ footer {
 }
 
 
+#footer-link{
+
+    font-size: 7pt;
+
+}
+
+
 
 .hidden {
     display: none;
@@ -53,7 +60,7 @@ Home Page
 #details{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -82,9 +89,6 @@ Contact Page
     
 }
 
-#email{
-    display: inline;
-}
 
 #about-info{
     
@@ -93,7 +97,7 @@ Contact Page
     padding-top: 25px;
     flex-direction: column;
     width: 35rem;
-    height: 35rem;
+    height: 40rem;
 }
 
 
