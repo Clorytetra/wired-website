@@ -1,11 +1,4 @@
 
-
-
-
-a{
-    text-decoration: none;
-}
-
 h1,
 h2,
 h3,
@@ -38,7 +31,12 @@ main {
 }
 
 
-/* Home Page */
+/*
+
+Home Page
+
+
+*/
 
 #home-body{
     display: flex;
@@ -68,7 +66,15 @@ main {
 }
 
 
-/* Contact Page */
+/*
+
+
+Contact Page
+
+
+
+*/
+
 
 #contact-body{
     display: flex;
@@ -76,19 +82,57 @@ main {
     
 }
 
+#email{
+    display: inline;
+}
 
-#contactInfo{
+#about-info{
     
     display: flex;
     text-align: center;
+    padding-top: 25px;
     flex-direction: column;
     width: 35rem;
-    height: 75rem;
-    height: 25rem;
+    height: 35rem;
 }
 
 
-/* Gallery */
+
+/*
+
+
+
+Reviews
+
+
+*/
+
+#reviews-body{
+    
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.review-link{
+    
+    padding: 50px;
+    
+}
+
+
+
+
+
+/* 
+
+
+Gallery 
+
+
+*/
 
 .gallery-row {
     margin: 10px -16px;
