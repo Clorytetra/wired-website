@@ -101,6 +101,34 @@ Contact Page
 }
 
 
+/*
+
+
+
+Services
+
+
+*/
+
+
+.service-title{
+    text-align: center;
+    margin-bottom: 5rem;
+    
+    
+}
+
+.service-body{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+
+
+
 
 /*
 
