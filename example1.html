@@ -11,22 +11,23 @@
         <nav w3-include-html="moduels/nav.html"></nav>
 
         
-        <main>
+        <main class='container'>
             
             <h1 class="service-title">Service 1</h1>
             
-            <div class="service-body">
-            
-                <picture>
-                    <img src='images/electrical-box.jpg'>
+            <div class="service-body row d-flex justify-content-center">
+                                
+                <picture class='col-xs-1 col-lg-6 d-flex justify-content-center'>
+                    <source srcset="images/electrical-box-small.jpg" media="(max-width: 600px)">
+                    <source srcset="images/electrical-box.jpg">
+                    <img src="images/electrical-box.jpg" alt="Electrical Box">
                 </picture>
 
 
-                <article class='border border-info border-styled'>
+                <article id='services-text' class='border border-info border-styled col-xs-1 col-lg-6 text-center'>      
+                    <br>
                     <p>This is just to format this box.</p>
                     <p>One of these days it will be filled in with real information.</p>
-
-
                 </article>
             
             </div>

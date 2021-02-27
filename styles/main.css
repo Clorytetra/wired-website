@@ -17,10 +17,20 @@ footer {
     padding-top: 20px;
 }
 
+@media (min-width: 1024px) {
+    
+    .navbar-nav{
+        
+        margin-left: 60rem;
+    }
+    
+    
+}
+    
 
 #footer-link{
 
-    font-size: 7pt;
+    font-size: 9pt;
 
 }
 
@@ -38,6 +48,39 @@ main {
 }
 
 
+footer {
+
+    display: flex;
+    font-size: 9pt;
+    justify-content: center;
+    padding: 0px;
+    height: 40px;
+    margin-top: 50px;
+    border-top: solid 1px #233D4D;
+
+}
+
+@media (max-width: 600px) {
+ 
+    footer{
+        
+        flex-direction: column;
+        align-items: center;
+        font-size: 7pt;
+    }
+    
+    footer > p{
+        margin: 0px;
+        
+    }
+
+    #footer-link{
+        font-size: 7pt;
+        
+    }
+}
+
+
 /*
 
 Home Page
@@ -48,14 +91,17 @@ Home Page
 #home-body{
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    align-items: center; !important
+
+}   
+
 
 .top-portion{
     display: flex;
     justify-content: space-around;
     padding-bottom: 100px;
 }
+
 
 #details{
     display: flex;
@@ -67,10 +113,34 @@ Home Page
 #hourly{
     display: flex;
     flex-direction: column;
-    width: 25%;
     text-align: center;
     
 }
+
+
+@media (max-width: 600px) {
+    
+    iframe{
+        
+        max-width: 350px;
+    }
+    
+    .map{
+        
+        display: flex;
+        max-width: 350px;
+        justify-content: center;
+        margin-top: 30px;
+        
+    }
+
+    #hourly{
+        
+        margin-top: 60px;
+    }
+    
+}
+
 
 
 /*
@@ -95,10 +165,29 @@ Contact Page
     display: flex;
     text-align: center;
     padding-top: 25px;
+    padding-bottom: 25px;
     flex-direction: column;
+    margin-right: 200px;
     width: 35rem;
     height: 40rem;
 }
+
+
+@media (max-width: 600px) {
+    
+    #about-info{
+        
+        margin-right: 0px;
+        margin-left: 20px;
+        width: 20rem;
+        height: 43rem;
+        
+    }
+    
+    
+
+}
+
 
 
 /*
@@ -118,16 +207,19 @@ Services
     
 }
 
-.service-body{
+
+@media (max-width: 600px) {
+
+#services-text{
     
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    max-width: 300px;
+    margin-top: 80px;
+    
     
 }
 
-
-
+    
+}
 
 
 /*
@@ -256,21 +348,6 @@ iframe{
     width: 500px;
     height: 500px;
     border-radius: 15px;
+    margin-top: 25px;
 }
 
-
-footer {
-
-    display: flex;
-    font-size: 7pt;
-    grid-template-columns: 350px;
-    grid-template-rows: 20px 20px;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    height: 40px;
-    margin-top: 50px;
-    border-top: solid 1px #233D4D;
-    margin-top: 200px;
-
-}

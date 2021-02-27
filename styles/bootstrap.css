@@ -3900,7 +3900,7 @@ textarea.form-control-lg {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    margin-left: 60rem;
+   
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -3928,6 +3928,7 @@ textarea.form-control-lg {
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
+  color:black;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -3979,6 +3980,7 @@ textarea.form-control-lg {
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
+    
   }
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
