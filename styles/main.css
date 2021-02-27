@@ -17,7 +17,7 @@ footer {
     padding-top: 20px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     
     .navbar-nav{
         
@@ -175,10 +175,16 @@ Contact Page
 
 @media (max-width: 600px) {
     
+    
+    #contact-body{
+        
+        align-items: center;
+        
+    }
+    
     #about-info{
         
         margin-right: 0px;
-        margin-left: 20px;
         width: 20rem;
         height: 43rem;
         
