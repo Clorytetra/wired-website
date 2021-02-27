@@ -16,18 +16,7 @@ footer {
     padding: 20px;
     padding-top: 20px;
 }
-
-@media (min-width: 1025px) {
     
-    .navbar-nav{
-        
-        margin-left: 60rem;
-    }
-    
-    
-}
-    
-
 #footer-link{
 
     font-size: 9pt;
@@ -60,8 +49,26 @@ footer {
 
 }
 
+
+@media (min-width: 1025px) {
+    
+    .navbar-nav{
+        
+        margin-left: 60rem;
+    }
+    
+    
+}
+
+
 @media (max-width: 600px) {
  
+    nav{
+        
+        padding: .5rem;
+        
+    }
+    
     footer{
         
         flex-direction: column;
@@ -128,7 +135,7 @@ Home Page
     .map{
         
         display: flex;
-        max-width: 350px;
+        max-width: 325px;
         justify-content: center;
         margin-top: 30px;
         
