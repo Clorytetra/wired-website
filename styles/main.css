@@ -16,6 +16,11 @@ footer {
     padding: 20px;
     padding-top: 20px;
 }
+
+.navbar-nav{
+    
+    margin-left: 60rem;
+}
     
 #footer-link{
 
@@ -50,42 +55,8 @@ footer {
 }
 
 
-@media (min-width: 1025px) {
-    
-    .navbar-nav{
-        
-        margin-left: 60rem;
-    }
-    
-    
-}
 
 
-@media (max-width: 600px) {
- 
-    nav{
-        
-        padding: .5rem;
-        
-    }
-    
-    footer{
-        
-        flex-direction: column;
-        align-items: center;
-        font-size: 7pt;
-    }
-    
-    footer > p{
-        margin: 0px;
-        
-    }
-
-    #footer-link{
-        font-size: 7pt;
-        
-    }
-}
 
 
 /*
@@ -125,29 +96,6 @@ Home Page
 }
 
 
-@media (max-width: 600px) {
-    
-    iframe{
-        
-        max-width: 350px;
-    }
-    
-    .map{
-        
-        display: flex;
-        max-width: 325px;
-        justify-content: center;
-        margin-top: 30px;
-        
-    }
-
-    #hourly{
-        
-        margin-top: 60px;
-    }
-    
-}
-
 
 
 /*
@@ -180,26 +128,6 @@ Contact Page
 }
 
 
-@media (max-width: 600px) {
-    
-    
-    #contact-body{
-        
-        align-items: center;
-        
-    }
-    
-    #about-info{
-        
-        margin-right: 0px;
-        width: 20rem;
-        height: 43rem;
-        
-    }
-    
-    
-
-}
 
 
 
@@ -221,18 +149,6 @@ Services
 }
 
 
-@media (max-width: 600px) {
-
-#services-text{
-    
-    max-width: 300px;
-    margin-top: 80px;
-    
-    
-}
-
-    
-}
 
 
 /*
@@ -354,7 +270,6 @@ Gallery
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 500px;
 }
 
 iframe{
@@ -362,5 +277,142 @@ iframe{
     height: 500px;
     border-radius: 15px;
     margin-top: 25px;
+    border: 0px;
 }
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    #contact-body{
+        
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #about-info{
+        
+        width: 600px;
+        margin-right: 0px;
+    }
+
+
+
+    iframe{
+        
+        width: 550px;
+        height: 500px;
+    }
+    
+    .navbar-nav{
+        
+        margin-left: 5rem;
+    }
+    
+    
+}
+
+
+
+@media (max-width: 600px) {
+ 
+    nav{
+        
+        padding: .5rem;
+        
+    }
+    
+    footer{
+        
+        flex-direction: column;
+        align-items: center;
+        font-size: 7pt;
+    }
+    
+    footer > p{
+        margin: 0px;
+        
+    }
+
+    #footer-link{
+        font-size: 7pt;
+        
+    }
+
+
+    
+    iframe{
+        
+        max-width: 300px;
+    }
+    
+    .map{
+        
+        display: flex;
+        max-width: 300px;
+        justify-content: center;
+        margin-top: 30px;
+        
+    }
+
+
+
+/*
+
+
+    Home
+
+
+*/
+
+
+    #hourly{
+        
+        margin-top: 60px;
+    }
+    
+
+/*
+    contact
+*/
+    
+  
+    #about-info{
+        
+        margin-right: 0px;
+        width: 20rem;
+        height: 43rem;
+        
+    }
+    
+    
+/*
+    Services
+
+*/
+
+    #services-text{
+
+        max-width: 300px;
+        margin-top: 80px;
+
+
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
 
