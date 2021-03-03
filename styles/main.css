@@ -314,6 +314,21 @@ iframe{
     }
     
     
+    
+    .gallery-column {
+        width: 50%;
+    }
+    
+    
+}
+
+
+@media (max-width:800px){
+    .navbar-nav{
+        
+        margin-left: 0rem;
+    }
+    
 }
 
 
@@ -401,6 +416,22 @@ iframe{
         margin-top: 80px;
 
 
+    }
+
+    
+    
+/* 
+    Gallery
+*/
+    
+    #gallery-body{
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .gallery-column {
+        width: 100%;
     }
 
     
